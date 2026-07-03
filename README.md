@@ -1,2 +1,2 @@
 # DiTrust-Net
-## The code will come soon!
+## The code will be made public after the paper is accepted.
