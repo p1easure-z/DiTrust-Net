@@ -48,8 +48,8 @@ accepts `--data-root`. For preprocessing, set `BRATS_HGG_ROOT` and
 
 Only the following two files are official result checkpoints:
 
-| Dataset   | File                           | SHA-256                                                      |
-| --------- | ------------------------------ | ------------------------------------------------------------ |
+| Dataset | File | SHA-256 |
+| --- | --- | --- |
 | BraTS2020 | `results/DiTrust-Net-2020.pth` | `3642fa8892bee44782be6aae4891e4c75766450c4ec126bf0b402796a6ee8b31` |
 | BraTS2021 | `results/DiTrust-Net-2021.pth` | `196320faaeea2e8ddef237c22e7b3d4f413c3c6af868fc69dd7a3f341d5f65e3` |
 
@@ -77,10 +77,10 @@ python validate.py \
 
 The existing complete-split reports contain these Dice scores:
 
-| Dataset   | Slices |     WT |     TC |     ET | Average |
-| --------- | -----: | -----: | -----: | -----: | ------: |
-| BraTS2020 |  4,709 | 0.9145 | 0.8659 | 0.8702 |  0.8835 |
-| BraTS2021 | 16,321 | 0.9326 | 0.9315 | 0.9018 |  0.9220 |
+| Dataset | Slices | WT | TC | ET | Average |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| BraTS2020 | 4,709 | 0.9145 | 0.8659 | 0.8702 | 0.8835 |
+| BraTS2021 | 16,321 | 0.9326 | 0.9315 | 0.9018 | 0.9220 |
 
 ## Training
 

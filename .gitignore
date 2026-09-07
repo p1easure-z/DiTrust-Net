@@ -1,0 +1,46 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+
+# Local datasets and medical-image intermediates
+data/trainImage/
+data/trainGt/
+data/testImage/
+data/testGt/
+*.nii
+*.nii.gz
+*.npy
+
+# Model weights. Release the two official result checkpoints separately; they
+# must not enter ordinary Git history.
+*.pth
+*.pt
+*.ckpt
+
+# Training and validation outputs
+results/**
+vis/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
