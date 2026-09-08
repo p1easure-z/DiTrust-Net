@@ -103,10 +103,10 @@ First place the VMamba-Tiny pretrained weights at the path specified under [Pret
 
 ```bash
 # BraTS 2020
-python train.py --dataset_name BraTS2020 --epochs 100 --batch_size 6
+python train.py --dataset_name BraTS2020 --epochs 200 --batch_size 8
 
 # BraTS 2021
-python train.py --dataset_name BraTS2021 --epochs 100 --batch_size 6
+python train.py --dataset_name BraTS2021 --epochs 200 --batch_size 8
 ```
 
 Training freezes the backbone by default. Ensure the pretrained backbone file is present before using this setting. To train the backbone as well, pass `--freeze_backbone false`. Logs, loss curves, and epoch checkpoints are saved under `results/`; use `--save_dir` to change the output directory.
